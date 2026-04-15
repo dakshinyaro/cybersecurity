@@ -1,87 +1,41 @@
-Linux Basic Commands (used after installation)
-ls → List files and directories
-cd → Change directory
-pwd → Show current directory
-mkdir → Create a new folder
-rm → Remove files
-sudo → Run command as administrator
-apt update → Update package list
-apt upgrade → Upgrade installed packages
-lsblk → View disk partitions
-fdisk -l → Show partition details
-mount → Mount a partition
-umount → Unmount a partition
-diskpart → Manage disk partitions
-list disk → Show disks
-list volume → Show partitions
-exit → Exit diskpart
+🐉 Kali Linux Dual Boot & Linux Fundamentals Documentation
 
-Steps to Setup Dual Boot (Windows + Linux)
+This repository showcases my setup of a Kali Linux dual boot system along with essential Linux command practice and personal learning notes.
 
-Step 1: Backup Data
-Always take backup of important files before starting.
+The main goal of this project is to build a strong understanding of Linux usage, system setup, and command-line operations as part of my journey into cybersecurity.
 
-Step 2: Create Free Space
-Open Disk Management in Windows
-Shrink an existing drive (C: or D:)
-Create at least 20–50 GB free space
+This documentation includes the complete installation process, execution of terminal commands, and organized notes created during my learning phase.
 
-Step 3: Create Bootable USB
-Download Linux ISO (e.g., Kali Linux / Ubuntu)
-Use tools like:
-Rufus
-Create bootable USB drive
+✨ Contents of This Repository
+Evidence of successful Kali Linux dual boot installation
+Screenshots of the boot menu
+Terminal command execution samples
+Documentation of basic Linux commands
+Personal notes and key takeaways from learning Linux
+💻 System Configuration
+Linux Distribution: Kali Linux
+Dual Boot With: Windows 11
+Installation Type: Bootable USB method
+Disk Partitioning: Manual partition configuration
+🔁 Dual Boot Verification
 
-Step 4: Boot from USB
-Restart system
-Press boot key (F2 / F12 / ESC / DEL)
-Select USB device
+The system has been successfully configured with a dual boot setup, allowing both Kali Linux and Windows 11 to be selected during startup.
 
-Step 5: Install Linux
-Choose “Install OS”
-Select:
-“Install alongside Windows” (easy method)
-OR
-“Manual partitioning” (advanced)
+🔹 Boot Menu
 
-Step 6: Partition Setup (Manual)
-Create:
-Root (/) → 20GB+
-Swap → 2–4GB
-Home (/home) → remaining space
+<h3 align="center">🔹 Boot Menu</h3>
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/ed6299f7-e566-4141-a6f3-2e2d4006409e" />
+</p>
 
-Step 7: Install Bootloader (GRUB)
-GRUB will automatically detect Windows
-It provides OS selection during startup
+🔹 Kali Linux Desktop
 
-Step 8: Restart System
-After installation, reboot
-You will see:
-Linux
-Windows Boot Manager
+<h3 align="center">🔹 Kali Linux Desktop</h3>
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/d041d3db-c5d0-468f-8d09-2ed2d9143f90" />
+</p>
 
-What is Learned
-Understanding of dual boot concept
-Disk partitioning and memory allocation
-Bootloader (GRUB) working
-Basic Linux commands
-OS installation process
-System-level configuration
 
-Issues Faced
-Boot menu not showing (GRUB issue)
-Windows overriding bootloader after update
-Partition errors during installation
-USB not detected in BIOS
-Insufficient disk space
-Secure Boot causing installation failure
+🎯 Purpose
 
-Solutions to Issues
-Reinstall GRUB using live USB
-Disable Secure Boot in BIOS
-Use correct partition format (ext4)
-Ensure proper boot mode (UEFI/Legacy)
-Update BIOS settings correctly
-
-Conclusion
-Dual booting is a powerful method to use multiple operating systems on a single machine. It helps users explore Linux while keeping Windows for regular use. Though some technical challenges may arise, proper understanding of partitions and bootloaders makes the process smooth and effective.
+This project acts as a starting point for understanding Linux systems and marks the beginning of my deeper exploration into cybersecurity tools, techniques, and practical usage of Kali Linux.
