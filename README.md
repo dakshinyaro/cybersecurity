@@ -10,7 +10,7 @@ This documentation includes the complete installation process, execution of term
 Evidence of successful Kali Linux dual boot installation
 Screenshots of the boot menu
 Terminal command execution samples
-Documentation of basic Linux commands
+Documentation of basic Linux commands.
 Personal notes and key takeaways from learning Linux
 💻 System Configuration
 Linux Distribution: Kali Linux
